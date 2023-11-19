@@ -29,11 +29,11 @@
 
 最后只需要在你的 github profile 仓库添加图片链接即可
 
-`![card](https://github.com/你的 Github 用户名/netease-music-card/blob/main/card.svg)`
+`![card](https://github.com/你的 Github 用户名/netease-music-card-fixed/blob/main/card.svg)`
 
 你也可以使用 [Jsdelivr](https://www.jsdelivr.com/?docs=gh) CDN 来引用图片
 
-`![card](https://cdn.jsdelivr.net/gh/你的 Github 用户名/netease-music-card/card.svg)`
+`![card](https://cdn.jsdelivr.net/gh/你的 Github 用户名/netease-music-card-fixed/card.svg)`
 
 你也可以将这个图片部署到你的博客等地方 😋
 
