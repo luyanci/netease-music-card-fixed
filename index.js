@@ -20,9 +20,9 @@ const {
     const account = await user_account({
         cookie: `MUSIC_U=${USER_TOKEN}`,
     })
-
+    const username = account.body.profile.nickname;
     const avatarUrl = account.body.profile.avatarUrl + "?param=128y128"; // 压缩
-    console.log(`个人头像: ${avatarUrl}`);
+    console.log(`用户名： ${username}个人头像: ${avatarUrl}`);
 
     /*
       获取歌单记录
@@ -199,7 +199,7 @@ const {
             <div class="card">
                 <div class="user">
                     <img class="avatar" src="data:image/jpg;base64,${await getBase64(avatarUrl)}"/>
-                    <a class="username"> ${AUTHOR} </a>
+                    <a class="username"> ${username} </a>
                     <a class="button"></a>
                     <div class="clear"></div>
                 </div>
