@@ -445,7 +445,7 @@
   dependencies:
     undici-types "~5.26.4"
 
-NeteaseCloudMusicApi@^4.0.22:
+NeteaseCloudMusicApi@^4.13.6:
   version "4.13.6"
   resolved "https://registry.yarnpkg.com/NeteaseCloudMusicApi/-/NeteaseCloudMusicApi-4.13.6.tgz#67069d5184eb9d2704911f7fc8db91e5713afe95"
   integrity sha512-dK6vReOVYBhOuUSocex1M3FNfRnJJvGmTfCavqXkSFguS+PyyeP7D6JDmF0NVqMskwE7r1uT2yqrozDnBA/Syw==
