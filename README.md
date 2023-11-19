@@ -1,6 +1,6 @@
 <div align="center"><img src="card.svg"></div>
 
-<div align="center"><h1>neteasemusic-github-profile</h1></div>
+<div align="center"><h1>neteasemusic-github-profile(fixed by @luyanci)</h1></div>
 
 <div align="center">🎧 在 Github Profile 显示你这周在网易云音乐上最喜欢听的歌曲 🎵</div>
 
@@ -13,7 +13,7 @@
 
 ![image](https://user-images.githubusercontent.com/31311826/133114645-1a27d063-971d-4ede-9775-52f8052ef655.png)
 
-然后修改 [main.yml](https://github.com/Nthily/netease-music-card/blob/main/.github/workflows/main.yml#L21) 中的 `USER_ID`
+然后修改 [main.yml](https://github.com/luyanci/netease-music-card-fixed/blob/main/.github/workflows/main.yml#L21) 中的 `USER_ID`
 
 ### 2. 获取网易云音乐用户的 `TOKEN`
  * 打开网页控制台，找到 Application 下 Cookie 为 `MUSIC_U` 的值
@@ -23,7 +23,7 @@
  * 将第一步获取到的值粘贴进去
 
 ### 3. 修改 `main.yml`
- 将 [main.yml](https://github.com/Nthily/netease-music-card/blob/main/.github/workflows/main.yml#L24) 中的 `AUTHOR` 修改为自己的 Github 用户名即可
+ 将 [main.yml](https://github.com/luyanci/netease-music-card/blob/main/.github/workflows/main.yml#L24) 中的 `AUTHOR` 修改为自己的 Github 用户名即可
 
 ### 4. 引用图片
 
