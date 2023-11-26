@@ -20,9 +20,7 @@ const {
     const account = await user_account({
         cookie: `MUSIC_U=${USER_TOKEN}`,
     })
-    /*
     const username = account.body.profile.nickname;
-    */
     const avatarUrl = account.body.profile.avatarUrl + "?param=128y128"; // 压缩
     console.log(`用户名： ${username}个人头像: ${avatarUrl}`);
 
