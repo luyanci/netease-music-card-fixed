@@ -21,7 +21,7 @@
  * 打开自己项目中的设置，找到 `Secrets` 新建一个名为 `USER_TOKEN` 的 `Secrets`
  ![image](https://user-images.githubusercontent.com/31311826/133136507-fb2b61f8-1c09-40b8-bb7e-90e3f43b2c55.png)
  * 将第一步获取到的值粘贴进去
-
+ * **注意：网易云可能会将此cookie封禁（掉登），所以action出现报错时请重新获取**
 ### 3. 修改 `main.yml`
  将 [main.yml](https://github.com/luyanci/netease-music-card/blob/main/.github/workflows/main.yml#L24) 中的 `AUTHOR` 修改为自己的 Github 用户名即可
 
