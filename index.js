@@ -199,7 +199,7 @@ const {
             <div class="card">
                 <div class="user">
                     <img class="avatar" src="data:image/jpg;base64,${await getBase64(avatarUrl)}"/>
-                    <a class="username"> ${AUTHOR} </a>
+                    <a class="username"> ${username} </a>
                     <a class="button"></a>
                     <div class="clear"></div>
                 </div>
