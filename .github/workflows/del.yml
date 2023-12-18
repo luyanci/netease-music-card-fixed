@@ -40,7 +40,7 @@ on:
         description: "Only log actions, do not perform any delete operations."
         required: false
   schedule:
-    - cron: '0 7 * * 1'
+    - cron: '0 0 * * 1'
 
 jobs:
   del_runs:
