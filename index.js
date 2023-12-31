@@ -271,7 +271,7 @@ const {
                 email: "41898282+github-actions[bot]@users.noreply.github.com",
             },
             tree: treeSHA,
-            message: 'Update SVG periodically',
+            message: '每日更新SVG文件',
             parents: [ lastSha ],
         });
         const result = await octokit.git.updateRef({
