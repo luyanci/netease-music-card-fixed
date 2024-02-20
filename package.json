@@ -3,7 +3,7 @@
     "@octokit/rest": "^20.0.2",
     "NeteaseCloudMusicApi": "^4.15.3",
     "axios": "^1.6.7",
-    "dotenv": "^16.4.4",
+    "dotenv": "^16.4.5",
     "octokit": "^3.1.2"
   }
 }
