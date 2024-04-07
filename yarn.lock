@@ -276,10 +276,10 @@
   dependencies:
     undici-types "~5.26.4"
 
-NeteaseCloudMusicApi@^4.15.6:
-  version "4.15.6"
-  resolved "https://registry.yarnpkg.com/NeteaseCloudMusicApi/-/NeteaseCloudMusicApi-4.15.6.tgz#c6339b33ec3888887cdce7e2ce6f3553503b1b14"
-  integrity sha512-MNd5TUUNRCTeVsEZ+ogag5DZbIUWLDKNdNW29+aIi8NN9IXALWe5OBH22GJsf7idpYlVo2usORBM4so2CnwdkA==
+NeteaseCloudMusicApi@^4.15.8:
+  version "4.15.8"
+  resolved "https://registry.yarnpkg.com/NeteaseCloudMusicApi/-/NeteaseCloudMusicApi-4.15.8.tgz#d34dfd7cf5c7821c81c08535fa08170a6b744979"
+  integrity sha512-Dp6iES38tLCcffVuyOfmAvqN414G9dxzR1oUG6Ov+MoSZ6wt6whF1tRvL/VGMz06l6ezIF0SvVae9xvltroPTA==
   dependencies:
     axios "^1.2.2"
     crypto-js "^4.2.0"
