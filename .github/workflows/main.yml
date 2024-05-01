@@ -1,9 +1,9 @@
 name: NeteaseMusic
 on:
   push:
-  workflow_dispatch:
     branches:
       - main
+  workflow_dispatch:
   schedule: 
     - cron: "0 0 * * *"
   pull_request:
