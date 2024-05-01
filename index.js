@@ -14,6 +14,7 @@ const {
     GH_TOKEN,
     AUTHOR,
     REPO,
+    REFS,
 } = process.env;
 
 (async () => {
@@ -277,7 +278,7 @@ const {
         const result = await octokit.git.updateRef({
             owner: AUTHOR,
             repo: REPO,
-            ref: "heads/main",
+            ref: REFS,
             sha: newSHA,
         });
         console.log(result);
