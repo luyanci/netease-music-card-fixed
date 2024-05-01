@@ -278,7 +278,7 @@ const {
         const result = await octokit.git.updateRef({
             owner: AUTHOR,
             repo: REPO,
-            ref: REFS,
+            ref: "heads/main",
             sha: newSHA,
         });
         console.log(result);
