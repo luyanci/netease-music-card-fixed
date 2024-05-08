@@ -4,6 +4,6 @@
     "NeteaseCloudMusicApi": "^4.19.4",
     "axios": "^1.6.8",
     "dotenv": "^16.4.5",
-    "octokit": "^3.2.1"
+    "octokit": "^4.0.1"
   }
 }
