@@ -2,7 +2,7 @@
   "dependencies": {
     "@octokit/rest": "^20.1.1",
     "NeteaseCloudMusicApi": "^4.19.9",
-    "axios": "^1.7.3",
+    "axios": "^1.7.4",
     "dotenv": "^16.4.5",
     "octokit": "^4.0.2"
   }
