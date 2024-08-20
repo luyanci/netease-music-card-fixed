@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "dependencies": {
     "@octokit/rest": "^20.1.1",
     "NeteaseCloudMusicApi": "^4.19.9",
