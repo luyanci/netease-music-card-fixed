@@ -302,10 +302,10 @@
   resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.126.tgz#be132de6e68353e240c88505940e67cd95d3066e"
   integrity sha512-5eh4ffLdGYgGYI1Xr6W5L4IVse4RR7L2ns5OVUXA52nW5GFapIcGMcCzHAIMMOdpcQs3aGVxbvFlJNZH6IpgEQ==
 
-NeteaseCloudMusicApi@^4.23.0:
-  version "4.23.0"
-  resolved "https://registry.yarnpkg.com/NeteaseCloudMusicApi/-/NeteaseCloudMusicApi-4.23.0.tgz#dc53a3c514834b4e8101519ef50f6f8d2cb0e6ab"
-  integrity sha512-nTvEnrfkTKNWEPCHF/qbNLAQVLb90PaPjdBuht/po6OpGTwX9sWm7RXsqMr7TGw10mkR94CIvx9Ecb+H8gV8yA==
+NeteaseCloudMusicApi@^4.23.2:
+  version "4.23.2"
+  resolved "https://registry.yarnpkg.com/NeteaseCloudMusicApi/-/NeteaseCloudMusicApi-4.23.2.tgz#2a3d5fed7f8c3c3eef875651a2c372af471bbee3"
+  integrity sha512-c1AEPkOwUGtQR3lvhnAtpLa/hupTvAWLkUumJk+IZ6rT0GVpWJHDySRQz1TFSNsNKi8hgL+DbBElSQrpTuBG9Q==
   dependencies:
     axios "^1.2.2"
     crypto-js "^4.2.0"
