@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@octokit/app@^15.0.0":
-  version "15.0.1"
-  resolved "https://registry.yarnpkg.com/@octokit/app/-/app-15.0.1.tgz#4f4d9a62d139c4ac5f92c1d728ff85130bac7b55"
-  integrity sha512-nwSjC349E6/wruMCo944y1dBC7uKzUYrBMoC4Qx/xfLLBmD+R66oMKB1jXS2HYRF9Hqh/Alq3UNRggVWZxjvUg==
+"@octokit/app@^15.1.1":
+  version "15.1.1"
+  resolved "https://registry.yarnpkg.com/@octokit/app/-/app-15.1.1.tgz#bbbae2b209928c8ca038122ec85bff67045628c7"
+  integrity sha512-fk8xrCSPTJGpyBdBNI+DcZ224dm0aApv4vi6X7/zTmANXlegKV2Td+dJ+fd7APPaPN7R+xttUsj2Fm+AFDSfMQ==
   dependencies:
     "@octokit/auth-app" "^7.0.0"
     "@octokit/auth-unauthenticated" "^6.0.0"
@@ -265,10 +265,10 @@
     "@octokit/plugin-request-log" "^4.0.0"
     "@octokit/plugin-rest-endpoint-methods" "13.2.2"
 
-"@octokit/types@^13.0.0", "@octokit/types@^13.1.0", "@octokit/types@^13.4.1", "@octokit/types@^13.5.0":
-  version "13.5.0"
-  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-13.5.0.tgz#4796e56b7b267ebc7c921dcec262b3d5bfb18883"
-  integrity sha512-HdqWTf5Z3qwDVlzCrP8UJquMwunpDiMPt5er+QjGzL4hqr/vBVY/MauQgS1xWxCDT1oMx1EULyqxncdCY/NVSQ==
+"@octokit/types@^13.0.0", "@octokit/types@^13.1.0", "@octokit/types@^13.4.1", "@octokit/types@^13.5.0", "@octokit/types@^13.6.2":
+  version "13.6.2"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-13.6.2.tgz#e10fc4d2bdd65d836d1ced223b03ad4cfdb525bd"
+  integrity sha512-WpbZfZUcZU77DrSW4wbsSgTPfKcp286q3ItaIgvSbBpZJlu6mnYXAkjZz6LVZPXkEvLIM8McanyZejKTYUHipA==
   dependencies:
     "@octokit/openapi-types" "^22.2.0"
 
@@ -1034,12 +1034,12 @@ object-inspect@^1.9.0:
   resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.13.1.tgz#b96c6109324ccfef6b12216a956ca4dc2ff94bc2"
   integrity sha512-5qoj1RUiKOMsCCNLV1CBiPYE10sziTsnmNxkAI/rZhiD63CF7IqdFGC/XzjWjpSgLf0LxXX3bDFIh0E18f6UhQ==
 
-octokit@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/octokit/-/octokit-4.0.2.tgz#775d68d363cdaec69d7b73d3dc82ae909d30f59b"
-  integrity sha512-wbqF4uc1YbcldtiBFfkSnquHtECEIpYD78YUXI6ri1Im5OO2NLo6ZVpRdbJpdnpZ05zMrVPssNiEo6JQtea+Qg==
+octokit@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/octokit/-/octokit-4.0.3.tgz#30098459c4b2ad0d96d95f39968ca099c8e096df"
+  integrity sha512-kfqH80Yuuux4fLbZ4SvObjCvVu89U0eCh5+fulh6tr/hJkDYS1inXDGnNJDOp312GANMEhWWMLYmjQR8MvSSMQ==
   dependencies:
-    "@octokit/app" "^15.0.0"
+    "@octokit/app" "^15.1.1"
     "@octokit/core" "^6.0.0"
     "@octokit/oauth-app" "^7.0.0"
     "@octokit/plugin-paginate-graphql" "^5.0.0"
@@ -1048,7 +1048,7 @@ octokit@^4.0.2:
     "@octokit/plugin-retry" "^7.0.0"
     "@octokit/plugin-throttling" "^9.0.0"
     "@octokit/request-error" "^6.0.0"
-    "@octokit/types" "^13.0.0"
+    "@octokit/types" "^13.6.2"
 
 on-finished@2.4.1:
   version "2.4.1"
